@@ -1,18 +1,18 @@
-{% set version = "1.6.0" %}
+{% set version = "1.7.0" %}
 
 package:
   name: tensorboard-plugin-wit
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/py3/t/tensorboard-plugin-wit/tensorboard_plugin_wit-{{ version }}.post3-py3-none-any.whl
-  sha256: 1fdf4ac343f1665453205aef8bb227b0204893bb5ffb792d2ed4509b1daf3d4f
+  url: https://pypi.io/packages/py3/t/tensorboard-plugin-wit/tensorboard_plugin_wit-{{ version }}-py3-none-any.whl
+  sha256: ee775f04821185c90d9a0e9c56970ee43d7c41403beb6629385b39517129685b
 
 build:
   number: 0
   noarch: python
   script:
-    - python -m pip install --no-deps --ignore-installed tensorboard_plugin_wit-{{ version }}.post3-py3-none-any.whl
+    - python -m pip install --no-deps --ignore-installed tensorboard_plugin_wit-{{ version }}-py3-none-any.whl
 
 requirements:
   host:

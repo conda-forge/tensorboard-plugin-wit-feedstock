@@ -5,11 +5,9 @@ Home: https://pair-code.github.io/what-if-tool
 
 Package license: Apache-2.0
 
-Feedstock license: BSD 3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/tensorboard-plugin-wit-feedstock/blob/master/LICENSE.txt)
 
 Summary: An easy-to-use interface for expanding understanding of a black-box classification or regression ML model
-
-
 
 Current build status
 ====================
