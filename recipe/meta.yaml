@@ -1,4 +1,4 @@
-{% set version = "1.7.0" %}
+{% set version = "1.8.0" %}
 
 package:
   name: tensorboard-plugin-wit
@@ -6,7 +6,7 @@ package:
 
 source:
   url: https://pypi.io/packages/py3/t/tensorboard-plugin-wit/tensorboard_plugin_wit-{{ version }}-py3-none-any.whl
-  sha256: ee775f04821185c90d9a0e9c56970ee43d7c41403beb6629385b39517129685b
+  sha256: 2a80d1c551d741e99b2f197bb915d8a133e24adb8da1732b840041860f91183a
 
 build:
   number: 0
